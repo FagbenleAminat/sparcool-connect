@@ -154,11 +154,14 @@ a{
     flex-direction: column;
 }
 .second{
-    height: 170px;
-    width: 208px;
+    height: 50px;
+    width: 236px;
     margin: 20px;
     margin-left: 0px;
     /* padding: 1px; */
+}
+.min{
+    margin: 0px;
 }
 .col{
      border-radius: 10px;
