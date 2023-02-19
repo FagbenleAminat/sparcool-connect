@@ -126,6 +126,10 @@ li{
     flex-direction: row;
     justify-content: space-between;
     margin: 20px;
+   
+}
+a{
+    text-decoration: none;
 }
 .us{
     margin-left: 50px;
