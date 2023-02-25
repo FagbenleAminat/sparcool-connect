@@ -325,7 +325,13 @@ justify-content: center;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
 }
-
+.detail{
+   margin:50px
+}
+.need{
+    width: 220px;
+    height: 100px;
+}
 .well{
     padding: 20px;
 }
