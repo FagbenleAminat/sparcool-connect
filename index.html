@@ -12,22 +12,24 @@
     <title>Sparcool Connect</title>
 </head>
 <body>
+    <div class="wrapper">
   <div class="main">
     <div class="top">
     <div class="logo">
-        <img class="hijab" src="./Images/Beige and Green Simple Charity Community Logo.png" alt="" height="50px" width="50px">
+      <a href="./index.html"><img class="hijab" src="./Images/Beige and Green Simple Charity Community Logo.png" alt="" height="50px" width="50px"></a> 
     </div>
     <div class="header">
         <ul>
 <li><a href="./index.html">Home</a> </li>
 <li><a href="./about.html">About</a> </li>
-<li><a href="">Marketplace</a> </li>
-<li><a href="">blog</a> </li>
-<li><a href="">Contact Us</a> </li>
+<li><a href="./blog.html">Blog</a> </li>
+<li><a href="./Resource.html">Free Resource</a> </li>
+<li><a href="./market.html">Marketplace</a> </li>
+
 </ul>
 <div class="search">
-   <input type="text" placeholder="search.." class="try">
-<button class="join">Search</button>
+   <input type="text" placeholder="search.." onkeyup="search_wordings()" class="try">
+<button class="join">Search</button></a>
 </div>
     </div>
 </div>
@@ -35,13 +37,12 @@
   <div class="container">
     <div class="us">
         <h1>Sparcool Connect</h1>
-        <p>A community dedicated to empowering and uplifting Muslim women. <br> We believe that by coming together, sharing our stories, and supporting each other, <br> we can create positive change in our lives and in the world around us. <br>
+        <p class="met">A community dedicated to empowering and uplifting Muslim women. <br> We believe that by coming together, sharing our stories, and supporting each other, <br> we can create positive change in our lives and in the world around us. <br>
             Our website offers a range of resources and tools to help you thrive and achieve your goals, from inspiring <br> articles and expert advice to engaging forums and events.</p>
-        
-            <button class="join">JOIN US</button>
+            <button class="join"><a class="join" href="https://forms.gle/kq9sncwuNzCFE2c19">JOIN US</a></button>
     </div>
 <div class="img">
-    <img src="./Images/my hijab.jpg" alt="hijab" height="250px" width="250px"  border-radius: 50%;>
+    <img class="img" src="./Images/my hijab.jpg" alt="hijab" height="250px" width="250px"  border-radius: 50%;>
 </div>
 </div>
 
@@ -57,17 +58,17 @@
     <div class="one">
     <h4>How I got saved from a tyrant boss</h4>
     <p class="story">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quam provident ab corrupti, dolores nihil tempore omnis eos, odit non aperiam aliquid facilis neque excepturi atque quo voluptatibus mollitia impedit.</p>
-    <button class="joint">READ MORE</button>
+    <button class="joint"><a class="joint" href="">READ MORE</a></button>
 </div>
 <div class="two">
     <h4>My ever amazing Hijab story</h4>
     <p class="story">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quam provident ab corrupti, dolores nihil tempore omnis eos, odit non aperiam aliquid facilis neque excepturi atque quo voluptatibus mollitia impedit.</p>
-    <button class="joint">READ MORE</button>
+    <button class="joint"><a class="joint" href="">READ MORE</a></button>
 </div>
 <div class="two">
     <h4>Useful productivity tools for coding mums</h4>
     <p class="story">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quam provident ab corrupti, dolores nihil tempore omnis eos, odit non aperiam aliquid facilis neque excepturi atque quo voluptatibus mollitia impedit.</p>
-    <button class="joint">READ MORE</button>
+    <button class="joint"><a class="joint" href="">READ MORE</a></button>
 </div>
 </div>
 </div>
@@ -90,8 +91,8 @@
 
         </div>
         <div class="col">
-            <h3>Aminat Sanni</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium mollitia at consequuntur numquam voluptatum repellendus veritatis hic deserunt, aspernatur repudiandae explicabo asperiores placeat, quidem molestiae obcaecati corrupti labore exercitationem minima.</p>
+            <h3>Rahmah Usidebhofor</h3>
+            <p>Allah has an aim for your tribulations,<br> reason for your suffering, and a motive for your wait. JUST WAIT!</p>
 
         </div>
         <div class="col">
@@ -112,7 +113,7 @@
   // options
   cellAlign: 'left',
   wrapAround: true,
- freeScroll: true
+ freeScroll:false
 });
       </script>
 
@@ -135,18 +136,24 @@
 </div>
     <div class="input">
         <div class="first">
-    <input type="text" placeholder="Name"> 
+            <form action="mailto:aminatofagbenle@gmail.com?subject=Sparcool Message" method="post" enctype="text/plain">
+                <br><input type="text" name="name"placeholder="Name"> <br>
+                <br><input type="text" name="subject"placeholder="Your message" class="second"><br>
+                <input type="submit" value="Send" class="join">
+             </form>
+    <!-- <input type="text" placeholder="Name"> 
     <input type="text" placeholder="Your message" class="second">
-    <button class="join">Submit</button>
+    <button class="join"><a class="join" href="mailto:aminatofagbenle@gmail.com?subject=Sparcool Message">Submit</a></button> -->
 </div>
     <h5>Need a Jilbaab?</h5>
-    <button class="join">Click here</button>
+    <button class="join"><a class="join" href="https://forms.gle/rzrgqhdz5YzyEqmN8">Click here</a></button>
 </div>
 </div>
+<div class="fixed">
 <div class="before">
     <div class="our">
         <div class="logo">
-            <img class="hijab" src="./Images/Beige and Green Simple Charity Community Logo.png" alt="" height="50px" width="50px">
+            <a href="./index.html"><img class="hijab" src="./Images/Beige and Green Simple Charity Community Logo.png" alt="" height="50px" width="50px"></a> 
         </div>
         <h2>Sparcool Connect</h2>
 
@@ -184,5 +191,6 @@
     <footer class="footer">
         <h5>Created by Aminat Fagbenle. © 2023</h5>
     </footer>
+</div>
 </body>
 </html>
