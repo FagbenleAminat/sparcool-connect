@@ -237,6 +237,7 @@ a{
     margin: 20px;
     justify-content: center;
     padding: 25px;
+    width: 250px;
 }
 .joint{
     width: 90px;
@@ -326,11 +327,17 @@ justify-content: center;
     padding-inline-start: 40px;
 }
 .detail{
-   margin:50px
+   margin:50px;
+   margin-left:350px;
+}
+.arr{
+    display: flex;
+    flex-direction: column;
 }
 .need{
-    width: 220px;
-    height: 100px;
+    width: 150px;
+    height: 180px;
+  
 }
 .well{
     padding: 20px;
