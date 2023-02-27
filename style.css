@@ -280,6 +280,9 @@ a{
     border-color:rgb(79, 232, 173);
     
 }
+.djoin{
+    padding: 20px;
+}
 .story{
     margin: 0px;
 }
@@ -384,4 +387,7 @@ justify-content: center;
 }
  .welcome{
     margin: 30px
+}
+.img{
+    margin-left: 0px;
 }
