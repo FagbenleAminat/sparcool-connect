@@ -104,9 +104,8 @@ h1{
 }
 .join{
     width: 90px;
-    height: 30px;
-    background-color: rgb(12, 80, 54);
-color: rgb(227, 219, 235);
+    background-color: rgb(79, 232, 173);
+    color: rgb(12, 80, 54);
     border-radius: 10px;
     
 }
@@ -239,18 +238,46 @@ a{
     padding: 25px;
     width: 250px;
 }
-.joint{
-    width: 90px;
+.vol_1{
+    width: 180px;
     height: 30px;
     font-size: 12px;
-    background-color: rgb(12, 80, 54);
-    color: rgb(227, 219, 235);
+    background-color: rgb(79, 232, 173);
+    color: rgb(12, 80, 54);
     border-radius: 10px;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5px;
-    border-color: rgb(12, 80, 54);
+    border-color: rgb(79, 232, 173);
+    
+}
+.vol{
+    width: 120px;
+    height: 30px;
+    font-size: 12px;
+    background-color: rgb(79, 232, 173);
+    color: rgb(12, 80, 54);
+    border-radius: 10px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    border-color: rgb(79, 232, 173);
+    
+}
+.joint{
+    width: 90px;
+    height: 30px;
+    font-size: 12px;
+    background-color: rgb(79, 232, 173);
+    color: rgb(12, 80, 54);
+    border-radius: 10px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    border-color:rgb(79, 232, 173);
     
 }
 .story{
@@ -329,6 +356,19 @@ justify-content: center;
 .detail{
    margin:50px;
    margin-left:350px;
+}
+.back{
+    margin-top: 50px;
+}
+.join_us{
+    margin-top: 70px;
+}
+.btn{
+    margin-top: 50px;
+    margin-bottom: 190px;
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
 }
 .arr{
     display: flex;
