@@ -38,8 +38,9 @@ padding: 60px;
 
 
 body{
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Outfit', sans-serif ;
     background-color: rgb(221 240 243 / 75%);
+    font-size: 16px;
     /* width: 100%;  */
     /* background-image: url('./Images/purple.jpg'); */
     /* background-position: center;
@@ -203,7 +204,7 @@ a{
 }
 .col{
      border-radius: 10px;
-    background-color: rgb(182, 250, 250); 
+    background-color: rgb(230, 252, 252); 
     width: 250px;
     height: 300px;
      margin: 10px;
