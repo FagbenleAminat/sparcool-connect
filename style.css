@@ -38,7 +38,7 @@ padding: 60px;
 
 
 body{
-    font-family: 'Outfit', sans-serif ;
+    font-family: 'Outfit', sans-serif !important;
     background-color: rgb(221 240 243 / 75%);
     font-size: 16px;
     /* width: 100%;  */
@@ -63,6 +63,13 @@ border-radius: 0px 0px 50% 50%;
 h1{
     color: #240046;
     margin-bottom: 0px;
+    font-weight: bold;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 .form{
     display: flex;
@@ -111,7 +118,12 @@ h1{
     
 }
 p{
-    color: rgb(205, 157, 205);
+    color: #3f0575;
+    display: block;
+    /* margin-block-start: 1em; */
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 .logo{
     margin: 10px;
@@ -129,14 +141,25 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
+    margin: 50px 0px 0px;
+    /* margin-right: auto;
+    margin-top: 50px; */
+    padding: 0px;
 }
-h4{
+
+*, ::after, ::before {
+ box-sizing: initial;
+}
+h4{display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 16px;
+    font-weight: bold;
     color: #240046;
 }
-h2{
+h2{font-weight: bold;
     color: #240046;
     margin-top: 5px;
     margin-bottom: 0px;
@@ -201,6 +224,13 @@ a{
 }
 .min{
     margin: 0px;
+    display: block;
+    font-size: 0.83em;
+    /* margin-block-start: 1.67em;
+    margin-block-end: 1.67em; */
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
 .col{
      border-radius: 10px;
@@ -287,17 +317,34 @@ a{
 .story{
     margin: 0px;
 }
-h3{
+h3{font-weight: bold;
     color: #240046;
+    font-size: 18.72px;
 }
-h5{
+h5{font-weight: bold;
     color: #240046;
 }
 .address{
     display: flex;
     flex-direction: column;
 }
-.my{
+.another{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+.my{display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
     margin-top: 1px;
     margin-left: 15px;
     color: #240046;
