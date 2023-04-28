@@ -1,41 +1,3 @@
-/* *{
-    margin: 0;
-    /* padding: 0; */
- 
-@media only screen and (max-width:400px) {
-    /* .wrapper{
-padding: 60px;
-    } */
-    .header{
-        display: none;
-    }
-    .container{
-        width: 150px;
-        height: 150px;
-    }
-    .met{
-        width: 150px;
-        height: 150px;
-    } 
-    .us{
-        width: 150px;
-        height: 150px;
-    }
-    .featured {
-        margin-top: 30px;
-        display: flex;
-        flex-direction: row;
-        background-color: rgb(192, 245, 245);
-        border-top-left-radius: 15%;
-        border-top-right-radius: 15%;
-        border-bottom-right-radius: 25%;
-        border-bottom-left-radius: 25%;
-        width: 400px;
-    }
-}
-
-
-
 
 body{
     font-family: 'Outfit', sans-serif !important;
@@ -473,6 +435,8 @@ justify-content: center;
         position: absolute;
         right: 0;
         top: 0;
+        margin-top: 13px;
+        margin-right: 15px
       }
       
       /* Add a grey background color on mouse-over */
@@ -483,7 +447,7 @@ justify-content: center;
       
       /* Style the active link (or home/logo) */
       .active {
-        background-color: rgb(181, 239, 239)
+        background-color: rgb(208, 232, 232)
         
       }
       .main{
@@ -502,28 +466,268 @@ justify-content: center;
     .vid{
         width: 200px;
     }
-}
-.us {
-    margin-left: 50px;
-    display: flex;
-    flex-direction: column;
-    /* width: 200px; */
+    .stories {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .us {
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        /* width: 200px; */
+    }
+    .featured {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(192, 245, 245);
+        border-top-left-radius: 15%;
+        border-top-right-radius: 15%;
+        border-bottom-right-radius: 25%;
+        border-bottom-left-radius: 25%;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    h1{
+        font-size: 1.6em;
+    }
+    .form {
+        display: flex;
+        flex-direction: row;
+        background-color: azure;
+        justify-content: space-around;
+        padding: 40px;
+    }
+    .before{
+        padding: 20px;
+    }
+    .add{
+        padding-right: 20px;
+    }
+    .icons {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+      }
+      
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      /* Style navigation menu links */
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      /* Style the hamburger menu */
+      .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-top: 13px;
+        margin-right: 15px
+      }
+      
+      /* Add a grey background color on mouse-over */
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      /* Style the active link (or home/logo) */
+      .active {
+        background-color: rgb(208, 232, 232)
+        
+      }
+      .main{
+   
+        display: none;
+}
 
+    .container {
+        /* width: 600px; */
+        /* height: 250px; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 50px 0px 0px;
+        padding: 0px;}
+    .vid{
+        width: 200px;
+    }
+    .stories {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .us {
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        /* width: 200px; */
+    }
+    .featured {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(192, 245, 245);
+        border-top-left-radius: 15%;
+        border-top-right-radius: 15%;
+        border-bottom-right-radius: 25%;
+        border-bottom-left-radius: 25%;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    h1{
+        font-size: 1.6em;
+    }
+    .form {
+        display: flex;
+        flex-direction: row;
+        background-color: azure;
+        justify-content: space-around;
+        padding: 40px;
+    }
+    .before{
+        padding: 20px;
+    }
+    .add{
+        padding-right: 20px;
+    }
+    .icons {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
 
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+      }
+      
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      /* Style navigation menu links */
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      /* Style the hamburger menu */
+      .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-top: 13px;
+        margin-right: 15px
+      }
+      
+      /* Add a grey background color on mouse-over */
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      /* Style the active link (or home/logo) */
+      .active {
+        background-color: rgb(208, 232, 232)
+        
+      }
+      /* .main{
+   
+        display: none;
+} */
 
+    .container {
+        /* width: 600px; */
+        /* height: 250px; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 50px 0px 0px;
+        padding: 0px;}
+    .vid{
+        width: 200px;
+    }
+    .stories {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .us {
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        /* width: 200px; */
+    }
+    .featured {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(192, 245, 245);
+        border-top-left-radius: 15%;
+        border-top-right-radius: 15%;
+        border-bottom-right-radius: 25%;
+        border-bottom-left-radius: 25%;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    h1{
+        font-size: 1.6em;
+    }
+    .form {
+        display: flex;
+        flex-direction: row;
+        background-color: azure;
+        justify-content: space-around;
+        padding: 40px;
+    }
+    .before{
+        padding: 20px;
+    }
+    .add{
+        padding-right: 20px;
+    }
+    .icons {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    
+    .main{
+
+    }
     .topnav{
         display: none;
 }}
