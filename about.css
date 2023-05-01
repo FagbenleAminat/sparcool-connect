@@ -360,3 +360,245 @@ p{
     color: #240046;
     
 }
+
+/* styles for screens smaller than 768px */
+@media only screen and (max-width: 767px) {
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+    }
+
+    .topnav #myLinks {
+        display: none;
+    }
+
+    /* Style navigation menu links */
+    .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    /* Style the hamburger menu */
+    .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-top: 13px;
+        margin-right: 15px
+    }
+
+    /* Add a grey background color on mouse-over */
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    /* Style the active link (or home/logo) */
+    .active {
+        background-color: rgb(208, 232, 232)
+    }
+
+    .top{
+
+        display: none;
+    }
+
+    .container {
+        /* width: 600px; */
+        /* height: 250px; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 50px 0px 0px;
+        padding: 0px;
+    }
+
+    .vid {
+        width: 200px;
+    }
+
+    .stories {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .us {
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        /* width: 200px; */
+    }
+
+    .featured {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(192, 245, 245);
+        border-top-left-radius: 15%;
+        border-top-right-radius: 15%;
+        border-bottom-right-radius: 25%;
+        border-bottom-left-radius: 25%;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: row;
+        background-color: azure;
+        justify-content: space-around;
+        padding: 40px;
+    }
+
+    .before {
+        padding: 20px;
+    }
+
+    .add {
+        padding-right: 20px;
+    }
+
+    .icons {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .abt {
+        /* margin-left: auto;
+        margin-right: auto; */
+        justify-content: center;
+    }
+  }
+  
+
+ /*Tablets styles for screens between 768px and 992px */
+ @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+    }
+
+    .topnav #myLinks {
+        display: none;
+    }
+
+    /* Style navigation menu links */
+    .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    /* Style the hamburger menu */
+    .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-top: 13px;
+        margin-right: 15px
+    }
+
+    /* Add a grey background color on mouse-over */
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    /* Style the active link (or home/logo) */
+    .active {
+        background-color: rgb(208, 232, 232)
+    }
+
+    .top {
+        display: none;
+    }
+
+    .container {
+        /* width: 600px; */
+        /* height: 250px; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 50px 0px 0px;
+        padding: 0px;
+    }
+
+    .vid {
+        width: 200px;
+    }
+
+    .stories {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .us {
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        /* width: 200px; */
+    }
+
+    .featured {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(192, 245, 245);
+        border-top-left-radius: 15%;
+        border-top-right-radius: 15%;
+        border-bottom-right-radius: 25%;
+        border-bottom-left-radius: 25%;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: row;
+        background-color: azure;
+        justify-content: space-around;
+        padding: 40px;
+    }
+
+    .before {
+        padding: 20px;
+    }
+
+    .add {
+        padding-right: 20px;
+    }
+
+    .icons {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+  }
+  
+  /* Laptop styles for screens larger than 992px */
+  @media only screen and (min-width: 992px) {
+    .topnav {
+        display: none;
+  }
+}

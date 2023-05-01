@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="./Images/heart-2028080_1280.png">
-
+<script src="./home.js"></script>
   <link rel="stylesheet" href="./style.css">
   <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
   <title>Sparcool Connect</title>
@@ -28,11 +28,24 @@
     </div>      
 </div>
   </div>
-  
+  <div class="topnav">
+    <a href="./index.html" class="active"><img class="hijab" src="./Images/Beige and Green Simple Charity Community Logo.png" alt="" height="50px" width="50px"></a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+   <a href="./about.html">About</a>
+  <a href="./blog.html">Blog</a> 
+   <a href="./Resource.html">Free Resource</a> 
+    <a href="./market.html">Marketplace</a> 
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 <div class="join_us">
     <h2>Welcome to Sparcool connect!</h2>
-    <h5 class="djoin">
-        Thank you for considering joining our community of Muslim sisters. We believe in the power of sisterhood and are committed to creating a welcoming and supportive space for all.
+    <!-- <h5 class="djoin"> -->
+      <p class="djoin">  Thank you for considering joining our community of Muslim sisters. We believe in the power of sisterhood and are committed to creating a welcoming and supportive space for all.
 
 When you become a member of our community, you'll have access to a wide range of resources, including events, workshops, mentorship opportunities, and more. You'll also have the chance to connect with other like-minded Muslim sisters and share your experiences, struggles, and triumphs.
 
@@ -41,11 +54,12 @@ We welcome all Muslim sisters to join us, regardless of age, background, or leve
 By joining our community, you'll not only have the opportunity to grow personally and professionally, but you'll also be making a positive impact in the lives of other Muslim sisters. We believe that by supporting each other, we can empower ourselves and uplift our entire community.
 
 To join us, simply fill out the forms below and we'll be in touch with you shortly. We look forward to welcoming you to our community and supporting you on your journey
-    </h5>
+</p>
+<!-- </h5> -->
     <div class="btn">
     <button class="vol"><a class="vol" href="https://forms.gle/R2L2YD1JUJyVn73CA">Be a Volunteer</a></button>
     <button class="vol"><a class="vol" href="https://forms.gle/kq9sncwuNzCFE2c19">Share Your Story</a></button>
-    <button class="vol_1"><a class="vol_1" href="https://chat.whatsapp.com/Ki736jev2ygD0m18eZffW0">Join our whatsapp community</a></button>
+    <button onclick="showLink()" class="vol_1">Join our whatsapp community</button>
    
 </div>
 </div>
