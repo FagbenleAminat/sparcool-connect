@@ -7,7 +7,9 @@ body {
     /* background-position: center;
     background-size: cover; */
 }
-
+.joiner{
+    background-color: azure;
+}
 .top {
     display: flex;
     flex-direction: row;
@@ -268,7 +270,7 @@ a {
     width: 180px;
     height: 30px;
     font-size: 12px;
-    background-color: rgb(79, 232, 173);
+    background-color: rgb(79, 232, 173) transparent;
     color: rgb(12, 80, 54);
     border-radius: 10px;
     justify-content: center;
@@ -276,23 +278,42 @@ a {
     margin-right: auto;
     margin-top: 5px;
     border-color: rgb(79, 232, 173);
-
+    border: none;
 }
 
 .vol {
     width: 120px;
     height: 30px;
     font-size: 12px;
-    background-color: rgb(79, 232, 173);
-    color: rgb(12, 80, 54);
+    background-color: rgb(79, 232, 173) transparent;
+    color: rgb(12, 80, 54); 
     border-radius: 10px;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5px;
     border-color: rgb(79, 232, 173);
-
-}
+        /* background-color: transparent; */
+        border: none;
+        /* color: white; */
+      }
+      
+      .vol_1:focus,
+      .vol_1:active {
+        outline: none;
+      }
+      
+      .vol_1:hover {
+        background-color:rgb(79, 232, 173);
+      }
+      .vol:focus,
+      .vol:active {
+        outline: none;
+      }
+      
+      .vol:hover {
+        background-color:rgb(79, 232, 173);
+      }
 
 .joint {
     width: 90px;
@@ -474,6 +495,11 @@ h5 {
 /* new */
 /* styles for screens smaller than 768px */
 @media only screen and (max-width: 767px) {
+    .img{
+        width: 100px;
+        height: 100px;
+    }
+    
     .topnav {
         overflow: hidden;
         background-color: #333;
@@ -566,7 +592,7 @@ h5 {
 
     .form {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         background-color: azure;
         justify-content: space-around;
         padding: 40px;
