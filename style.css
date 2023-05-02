@@ -489,17 +489,32 @@ h5 {
     display: flex;
     flex-direction: column;
 }
-
+.container_mobile{
+    display: none;
+}
 
 
 /* new */
 /* styles for screens smaller than 768px */
 @media only screen and (max-width: 767px) {
-    .img{
-        width: 100px;
-        height: 100px;
+    .container {
+       display: none;
     }
-    
+    .container_mobile{
+        display: flex;
+        flex-direction: column;
+    }
+    .img{
+        display: flex;
+        justify-content: center;
+    }
+    .btn {
+        margin-top: 50px;
+        margin-bottom: 190px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
     .topnav {
         overflow: hidden;
         background-color: #333;
@@ -546,19 +561,9 @@ h5 {
         display: none;
     }
 
-    .container {
-        /* width: 600px; */
-        /* height: 250px; */
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin: 50px 0px 0px;
-        padding: 0px;
-    }
-
-    .vid {
+    /* .vid {
         width: 200px;
-    }
+    } */
 
     .stories {
         display: flex;
@@ -614,7 +619,7 @@ h5 {
 
   }
   
-  /* styles for screens between 768px and 992px */
+  /*tablets- styles for screens between 768px and 992px */
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .topnav {
         overflow: hidden;
@@ -729,7 +734,7 @@ h5 {
     }
   }
   
-  /* styles for screens larger than 992px */
+  /*Laptop- styles for screens larger than 992px */
   @media only screen and (min-width: 992px) {
     .topnav {
         display: none;
