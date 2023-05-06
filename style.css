@@ -2,10 +2,7 @@ body {
     font-family: 'Outfit', sans-serif !important;
     background-color: rgb(221 240 243 / 75%);
     font-size: 16px;
-    /* width: 100%;  */
-    /* background-image: url('./Images/purple.jpg'); */
-    /* background-position: center;
-    background-size: cover; */
+   
 }
 .joiner{
     background-color: azure;
@@ -23,7 +20,7 @@ body {
 }
 
 .hijab {
-    /* border-radius: 50%; */
+
     border-radius: 0px 0px 50% 50%;
 }
 
@@ -42,8 +39,7 @@ h1 {
 .form {
     display: flex;
     flex-direction: row;
-    /* width: 300px;
-    height: 250px; */
+    
     background-color: azure;
     justify-content: space-around;
 }
@@ -110,25 +106,52 @@ p {
 }
 
 .container {
-    /* background-color: blanchedalmond;
-    border-radius: 15px 15px 50% 50%; */
-    /* width: 600px; */
-    /* height: 250px; */
+   
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 50px 0px 0px;
-    /* margin-right: auto;
-    margin-top: 50px; */
+    margin-top: 90px;
     padding: 0px;
 }
-
+.faq {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px;
+  }
+  
+  .question {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .question h3 {
+    margin: 0;
+  }
+  
+  .icon {
+    font-size: 20px;
+  }
+  
+  .answer {
+    display: none;
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  
 *,
 ::after,
 ::before {
     box-sizing: initial;
 }
-
+.blog_image{
+    margin-top: 80px;
+}
 h4 {
     display: block;
     margin-block-start: 1.33em;
@@ -231,10 +254,14 @@ a {
     width: 250px;
     height: 300px;
     margin: 10px;
-
+    padding: 10px;
     text-align: center;
 }
-
+.diff{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
 .one {
     display: flex;
     flex-direction: column;
@@ -285,7 +312,7 @@ a {
     width: 120px;
     height: 30px;
     font-size: 12px;
-    background-color: rgb(79, 232, 173) transparent;
+    background: rgb(79, 232, 173) transparent;
     color: rgb(12, 80, 54); 
     border-radius: 10px;
     justify-content: center;
@@ -493,8 +520,41 @@ h5 {
 .container_mobile{
     display: none;
 }
-
-
+/* Style the navbar links */
+  .top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(221 240 243 / 75%);
+    z-index: 1000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(221 240 243 / 75%);
+  }
+  
+  .header li {
+    float: left;
+  }
+  
+  .header li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .header li a:hover {
+    background-color: #ddd;
+  }
+  
 /* new */
 /* styles for screens smaller than 768px */
 @media only screen and (max-width: 767px) {
@@ -606,8 +666,15 @@ h5 {
 
     .before {
         padding: 20px;
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     }
-
+.icons{
+    display: flex;
+    flex-direction: row;
+}
     .add {
         padding-right: 20px;
     }

@@ -28,3 +28,31 @@ function myFunction() {
       showLink();
     }
   }
+// scrolling navbar
+
+window.onscroll = function() {myFunction()};
+
+var topBar = document.querySelector(".top");
+
+var sticky = topBar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    topBar.classList.add("sticky")
+  } else {
+    topBar.classList.remove("sticky");
+  }
+}
+// question and answer
+function toggleAnswer(question) {
+  var answer = question.nextElementSibling;
+  var icon = question.querySelector(".icon");
+  if (answer.style.display === "block") {
+    answer.style.display = "none";
+    icon.innerText = "+";
+  } else {
+    answer.style.display = "block";
+    icon.innerText = "-";
+  }
+}
+
