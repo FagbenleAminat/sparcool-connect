@@ -305,6 +305,8 @@ a {
     border-color: rgb(79, 232, 173);
 
 }
+
+}
 .links{
     display: flex;
    flex-direction: column;
@@ -548,24 +550,6 @@ h5 {
 }}
 /* styles for screens smaller than 768px */
 @media only screen and (max-width: 767px) {
-    .container {
-       display: none;
-    }
-    .container_mobile{
-        display: flex;
-        flex-direction: column;
-    }
-    .img{
-        display: flex;
-        justify-content: center;
-    }
-    .btn {
-        margin-top: 50px;
-        margin-bottom: 190px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
     .topnav {
         overflow: hidden;
         background-color: #333;
