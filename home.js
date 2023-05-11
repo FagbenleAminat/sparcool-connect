@@ -28,13 +28,11 @@ function myFunction() {
       showLink();
     }
   }
-  // new
-  
 // scrolling navbar
 
 window.onscroll = function() {myFunction()};
 
-var topBar = document.querySelector(".topnav");
+var topBar = document.querySelector(".top");
 
 var sticky = topBar.offsetTop;
 
