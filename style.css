@@ -297,7 +297,7 @@ a {
     width: 180px;
     height: 30px;
     font-size: 12px;
-    background-color: rgb(79, 232, 173) transparent;
+    background-color: rgb(79, 232, 173) ;
     color: rgb(12, 80, 54);
     border-radius: 10px;
     justify-content: center;
@@ -307,12 +307,15 @@ a {
     border-color: rgb(79, 232, 173);
     border: none;
 }
-
+.links{
+    display: flex;
+   flex-direction: column;
+}
 .vol {
     width: 120px;
     height: 30px;
     font-size: 12px;
-    background: rgb(79, 232, 173) transparent;
+    background: rgb(79, 232, 173);
     color: rgb(12, 80, 54); 
     border-radius: 10px;
     justify-content: center;
@@ -555,6 +558,15 @@ h5 {
   }
   
 /* new */
+@media only screen and (max-width: 425px) {
+.before
+    {padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin-left: 40px;
+}}
 /* styles for screens smaller than 768px */
 @media only screen and (max-width: 767px) {
     .container {
@@ -621,9 +633,40 @@ h5 {
         display: none;
     }
 
-    /* .vid {
-        width: 200px;
-    } */
+    /* Style the navbar links */
+ .topnav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(221 240 243 / 75%);
+    z-index: 1000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(221 240 243 / 75%);
+  }
+  
+  .header li {
+    float: left;
+  }
+  
+  .header li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .header li a:hover {
+    background-color: #ddd;
+  }
 
     .stories {
         display: flex;
@@ -694,9 +737,9 @@ h5 {
         position: relative;
     }
 
-    .topnav #myLinks {
+    /* .topnav #myLinks {
         display: none;
-    }
+    } */
 
     /* Style navigation menu links */
     .topnav a {
@@ -733,7 +776,40 @@ h5 {
 
         display: none;
     }
-
+    .topnav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgb(221 240 243 / 75%);
+        z-index: 1000;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+      }
+      
+      .header ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:rgb(221 240 243 / 75%);
+      }
+      
+      .header li {
+        float: left;
+      }
+      
+      .header li a {
+        display: block;
+        color: #000;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      .header li a:hover {
+        background-color: #ddd;
+      }
+    
     .container {
         /* width: 600px; */
         /* height: 250px; */
