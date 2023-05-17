@@ -14,8 +14,20 @@ body{
     display: flex;
     flex-direction: row;
     padding: 10px;
-}
+    justify-content: center;
 
+}
+.stories_mobile{
+    display:none;
+}
+.quest{
+    display: flex;
+    flex-direction: column;
+}
+.ion{
+    margin-left: auto;
+    margin-right: auto;
+}
 .hijab {
 
     border-radius: 0px 0px 50% 50%;
@@ -98,13 +110,15 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 90px;
+    margin:65px 0px 0px;;
     padding: 0px;
 }
 .faq {
     font-size: 16px;
     line-height: 1.5;
     margin: 20px;
+    display: flex;
+    flex-direction: column
   }
   
   .question {
@@ -280,7 +294,7 @@ a{
     
 }
 
-}
+
 .links{
     display: flex;
    flex-direction: column;
@@ -374,7 +388,7 @@ h5{font-weight: bold;
 .add{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    
     margin-top: 10px;
 }
 .mail{
@@ -396,6 +410,8 @@ justify-content: center;
 }
 .icons{
     margin-top: 10px;
+    display: flex;
+    flex-direction: row;
 }
 .whats{
     display: block;
@@ -428,7 +444,7 @@ justify-content: center;
     flex-direction: column;
 }
 .need{
-    width: 150px;
+    width: 106%;
     height: 180px;
   
 }
@@ -445,6 +461,7 @@ justify-content: center;
     display: flex;
     flex-direction: column;
 }
+
 .container_mobile{
     display: none;
 }
@@ -482,7 +499,16 @@ justify-content: center;
   .header li a:hover {
     background-color: #ddd;
   }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
   
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
 /* new */
 @media only screen and (max-width: 425px) {
 .before
@@ -495,97 +521,63 @@ justify-content: center;
 }}
 /* styles for screens smaller than 768px */
 @media only screen and (max-width: 767px) {
-    .topnav {
-        overflow: hidden;
-        background-color: #333;
-        position: relative;
-      }
-      
-      .topnav #myLinks {
-        display: none;
-      }
-      
-      /* Style navigation menu links */
-      .topnav a {
-        color: white;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
-      }
-      
-      /* Style the hamburger menu */
-      .topnav a.icon {
-        background: black;
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-        margin-top: 13px;
-        margin-right: 15px
-      }
-      
-      /* Add a grey background color on mouse-over */
-      .topnav a:hover {
-        background-color: #ddd;
-        color: black;
-      }
-      
-      /* Style the active link (or home/logo) */
-      .active {
-        background-color: rgb(208, 232, 232)
-        
-      }
-      .main{
-   
-        display: none;
-}
-
-    /* Style the navbar links */
- .topnav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgb(221 240 243 / 75%);
-    z-index: 1000;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .header ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    /* Style the navigation menu */
+.topnav {
     overflow: hidden;
-    background-color:rgb(221 240 243 / 75%);
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
   }
   
-  .header li {
-    float: left;
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
   }
   
-  .header li a {
-    display: block;
-    color: #000;
-    text-align: center;
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 17px;
+    display: block;
   }
   
-  .header li a:hover {
-    background-color: #ddd;
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 10px;
+    margin-right: 10px;
   }
-
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: rgb(203 227 227);
+    color: white;
+  }
+  
     .stories {
         display: flex;
         flex-direction: column;
         padding: 10px;
     }
     .us {
-        margin-left: 50px;
+        margin-left: 0px;
         display: flex;
         flex-direction: column;
-        /* width: 200px; */
+       
+        padding: 20px;
     }
     .featured {
         margin-top: 30px;
@@ -604,17 +596,32 @@ justify-content: center;
     }
     .form {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         background-color: azure;
         justify-content: space-around;
         padding: 40px;
     }
+    .detail{
+        margin:50px;
+        
+     }
+     .img {
+        margin-left: auto;
+        margin-right: auto;}
+        .blog_img{
+            width: 100%;
+        }
+    .btn{
+        display: flex;
+        flex-direction: column;
+    }
     .before{
         padding: 20px;
         display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 40px;
+   
     }
 .icons{
     display: flex;
@@ -628,23 +635,33 @@ justify-content: center;
         display: flex;
         flex-direction: column;
     }
-
+.top{
+    display: none;
+}
+ 
+  .container{
+    display: none;
   }
-  
+  .container_mobile{
+    /* height: 250px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px 0px 0px;
+    padding: 0px;
+    } }
   /*tablets- styles for screens between 768px and 992px */
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .topnav {
         overflow: hidden;
         background-color: #333;
-        position: relative;
-    }
-
-    /* .topnav #myLinks {
+        position: fixed;
+        width: 100%;
+        top: 0;
       }
-      
       .topnav #myLinks {
         display: none;
-    } */
+    } 
 
     /* Style navigation menu links */
     .topnav a {
@@ -677,10 +694,10 @@ justify-content: center;
         background-color: rgb(208, 232, 232)
         
       }
-      .main{
+      /* .main{
    
         display: none;
-    }
+    } */
     .topnav {
         position: fixed;
         top: 0;
@@ -770,7 +787,9 @@ justify-content: center;
         display: flex;
         flex-direction: column;
     }
-
+.top{
+    display: none;
+}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -778,13 +797,14 @@ justify-content: center;
     .topnav {
         overflow: hidden;
         background-color: #333;
-        position: relative;
+        position: fixed;
+        width: 100%;
+        top: 0;
       }
       
       .topnav #myLinks {
         display: none;
       }
-      
       /* Style navigation menu links */
       .topnav a {
         color: white;
@@ -827,21 +847,36 @@ justify-content: center;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin: 50px 0px 0px;
+        margin: 65px 0px 0px;
         padding: 0px;}
+        .use{
+            display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 65px 0px 0px;
+        padding: 0px;
+        }
     .vid{
         width: 200px;
     }
-    .stories {
+    /* .stories_mobile {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         padding: 10px;
     }
+    .stories{
+        display:none;
+    } */
+    .blog_img{
+        width: 100%;
+    }
+    
     .us {
-        margin-left: 50px;
+        margin-left: 0px;
         display: flex;
         flex-direction: column;
-        /* width: 200px; */
+       
+        padding: 20px;
     }
     .featured {
         margin-top: 30px;
@@ -874,7 +909,9 @@ justify-content: center;
     .icons {
         margin-top: 10px;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        
+    justify-content: space-evenly;
     }
   }
   

@@ -19,23 +19,11 @@ function myFunction() {
       showLink();
     }
   }
-  // new
+  //vendor's list
+  function vendorList() {
+    var vendor = alert("Please check back later, collation in progress.");}
+
   
-// scrolling navbar
-
-window.onscroll = function() {myFunction()};
-
-var topBar = document.querySelector(".topnav");
-
-var sticky = topBar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    topBar.classList.add("sticky")
-  } else {
-    topBar.classList.remove("sticky");
-  }
-}
 // question and answer
 function toggleAnswer(question) {
   var answer = question.nextElementSibling;
