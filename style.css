@@ -190,10 +190,16 @@ ul{
 }
 li{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     margin: 20px;
    
+}
+.inspi{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 16px;
 }
 a{
     text-decoration: none;
@@ -210,11 +216,11 @@ a{
     font-size: 15px;
 }
 .quotes{
-    margin-top: 15px;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    /* background-color: rgb(192, 245, 245); */
+    margin-bottom: 25px;
 }
 .first{
     display: flex;
