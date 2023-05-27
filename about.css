@@ -393,6 +393,8 @@ p{
   }
   .imp{
     background-color:  rgb(116 206 220 / 75%);
+    margin: -7px;
+
 }
   .header li {
     float: left;
@@ -405,10 +407,11 @@ p{
     /* padding: 14px 16px; */
     text-decoration: none;
   }
-  
+/*   
   .header li a:hover {
     background-color: #ddd;
-  }
+    border-radius: 50%;
+  } */
 .blog_image{
     margin-top: 80px;
 }
@@ -457,17 +460,19 @@ p{
     position: absolute;
     right: 0;
     top: 0;
+    margin-top: 12px;
+    margin-right: 8px;
   }
   
   /* Add a grey background color on mouse-over */
   .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #1f1c1c;
+    color: white;
   }
   
   /* Style the active link (or home/logo) */
   .active {
-    background-color: rgb(203 227 227);
+    background-color: rgb(130 220 234 / 89%);
     color: white;
   }
  
@@ -599,7 +604,7 @@ p{
 
     /* Style the active link (or home/logo) */
     .active {
-        background-color: rgb(208, 232, 232)
+        background-color: rgb(130 220 234 / 89%);
     }
 
     .top {
