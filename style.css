@@ -59,6 +59,7 @@ h1{
 .featured{
     margin-top: 30px;
     display: flex;
+    margin-bottom: 25px;
     flex-direction: column;
     background-color: rgb(192, 245, 245);
     border-top-left-radius: 15%;
@@ -126,7 +127,7 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f7f7f7;
+    background-color: #e4fcf7;
     padding: 10px;
     margin-bottom: 10px;
   }
@@ -418,7 +419,7 @@ h5{font-weight: bold;
 justify-content: center;
 /* background-color: rgb(116 206 220 / 75%); */
 }
-#sec{
+input{
     padding-left: 16px;
 }
 .icons{
@@ -894,6 +895,7 @@ justify-content: center;
         border-bottom-left-radius: 25%;
         margin-right: 30px;
         margin-left: 30px;
+        margin-bottom: 25px;
     }
     h1{
         font-size: 1.6em;
