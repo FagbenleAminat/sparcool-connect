@@ -245,11 +245,24 @@
     <div class="input">
         <div class="first">
             <h5>Any Comment?</h5>
-            <form action="mailto:aminatofagbenle@gmail.com?subject=Sparcool Message" method="post" enctype="text/plain">
-               <label for=""> <br><input type="text" autocomplete="on" name="name" placeholder="Name"> <br></label>
-            <label for="">   <br><input type="text" autocomplete="on" name="subject" placeholder="Your message" class="second"></label>  <br>
-             <label for=""> <input type="submit" value="Send" autocomplete="on" class="join">
-             </form>
+
+            <form action="https://formspree.io/f/xpzeggpa" method="POST" >
+            <label class="from">
+              <input type="text" autocomplete="on" name="name" placeholder="Name">
+            </label> <br>
+            <label class="from">
+              <input type="text" autocomplete="on" name="subject" placeholder="Your message" class="second">
+            </label> <br>
+            <!-- your other form fields go here -->
+            <button type="submit" class="join">Send</button>
+          </form>
+
+
+            <!-- <form action="mailto:aminatofagbenle@gmail.com?subject=Sparcool Message" method="post" enctype="text/plain">
+                <br><label for="input"></label><input type="text" autocomplete="on" name="name" placeholder="Name"> <br>
+                <br><label for="input"></label><input type="text" autocomplete="on" name="subject" placeholder="Your message" class="second"><br>
+                <label for="input"></label><input type="submit" value="Send" autocomplete="on" class="join">
+             </form> -->
     </div>
     <h5>Need to make an item request?</h5>
     <button class="join"><a class="join" href="https://forms.gle/rzrgqhdz5YzyEqmN8">Click here</a></button>
