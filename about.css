@@ -364,6 +364,12 @@ p{
     color: #240046;
     
 }
+.header a:hover {
+    background-color: #f3ecec;
+    border-radius: 50%;
+    height: 26px;
+    
+  }
 #top {
     background-color: #333; /* Black background color */
     position: fixed; /* Make it stick/fixed */
@@ -379,14 +385,14 @@ p{
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgb(116 206 220 / 75%);
+    background-color: rgb(116 206 220);
     z-index: 1000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
   }
   
   .header ul {
     list-style-type: none;
-    margin: 0;
+    margin-top: 10px;
     padding: 0;
     overflow: hidden;
     /* background-color:rgb(221 240 243 / 75%); */

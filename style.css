@@ -3,7 +3,6 @@ body{
     font-family: 'Outfit', sans-serif !important;
     background-color: rgb(221 240 243 / 75%);
     font-size: 16px;
-   
 }
 .top{
     display: flex;
@@ -205,7 +204,7 @@ li{
 .from{
     margin: 10px;
 }
-a{
+a{ color: #f4ecec;
     text-decoration: none;
 }
 .us{
@@ -251,7 +250,7 @@ a{
      border-radius: 10px;
     background-color: rgb(230, 252, 252); 
     width: 250px;
-    height: 300px;
+    height: 250px;
     margin: 10px;
     padding: 10px;
     text-align: center;
@@ -269,6 +268,7 @@ a{
     margin: 20px;
     justify-content: center;
     padding: 25px;
+    align-items: center;
 }
 .two{
     display: flex;
@@ -278,6 +278,7 @@ a{
     margin: 20px;
     justify-content: center;
     padding: 25px;
+    align-items: center;
 }
 .three{
     display: flex;
@@ -401,10 +402,43 @@ h5{font-weight: bold;
     
     margin-top: 10px;
 }
+.marki{
+    color: #240046 !important;
+    margin-top: 15px;
+}
 .mail{
     display: flex;
     flex-direction: row;
     /* justify-content: center; */
+}
+/* stylish buttons*/
+
+/* CSS */
+.button-33 {
+    background-color: rgb(79, 232, 173);
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px;
+    color: rgb(232, 247, 241);
+    cursor: pointer;
+    display: inline;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    width: 99px;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+}
+
+.button-33:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
 }
 .before{
     /* margin-top: 30px; */
@@ -881,10 +915,10 @@ input{
     }
     
     .us {
-        margin-left: 0px;
+        margin-left: 40px;
         display: flex;
         flex-direction: column;
-       
+      
         padding: 20px;
     }
     .featured {
