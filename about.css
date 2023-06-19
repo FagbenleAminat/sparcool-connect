@@ -1,11 +1,6 @@
-/* *{
-    margin: 0;
-    /* padding: 0; */
- 
+
     @media only screen and (max-width:400px) {
-        /* .wrapper{
-    padding: 60px;
-        } */
+        
         .header{
             display: none;
         }
@@ -40,10 +35,8 @@
     body{
         font-family: 'Outfit', sans-serif;
         background-color: rgb(221 240 243 / 75%);
-        /* width: 100%;  */
-        /* background-image: url('./Images/purple.jpg'); */
-        /* background-position: center;
-        background-size: cover; */
+        font-size: 17px;
+
     }
     .top{
         display: flex;
@@ -226,7 +219,7 @@
         padding: 25px;
     }
     .contain{
-        margin-top: 80px;
+        margin-top: 55px;
         padding: 30px;
     }
     .two{
@@ -278,6 +271,7 @@
         margin-top: 1px;
         margin-left: 15px;
         color: #240046;
+        font-size: 15px;
     }
     .our{
         display: flex;
@@ -344,11 +338,14 @@
     }
     .what{
         display: list-item;
-       
+        padding: 12px;
+        padding-top: 5px;
+        font-size: 20px;
     }
     .well{
         padding: 20px;
         padding-top: 5px;
+        font-size: 20px;
     }
      .service{
         display: flex;
@@ -356,7 +353,8 @@
         margin-left: 25px;
     } 
     .abt{
-        margin-left: 400px;
+        display: flex;
+        margin-left: auto;
         margin-right: auto;
         justify-content: center;
     }
@@ -392,10 +390,9 @@ p{
   
   .header ul {
     list-style-type: none;
-    margin-top: 10px;
+    margin: 0;
     padding: 0;
     overflow: hidden;
-    /* background-color:rgb(221 240 243 / 75%); */
   }
   .imp{
     background-color:  rgb(116 206 220 / 75%);
@@ -410,7 +407,7 @@ p{
     display: block;
     color: #000;
     text-align: center;
-    /* padding: 14px 16px; */
+    padding: 14px 16px;
     text-decoration: none;
   }
 /*   
@@ -556,9 +553,10 @@ p{
         flex-direction: column;
     }
     .abt {
-        margin-left: 100px;
-        margin-right: auto;
-        justify-content: center;
+        margin-left: auto;
+    display: flex;
+    margin-right: auto;
+    justify-content: center;
     }
     .before{
         padding: 20px;
@@ -645,9 +643,6 @@ p{
     }
 .blog_image{
     margin: 0px;
-}
-.abt{
-    margin-left: 350px;
 }
     .featured {
         margin-top: 30px;
