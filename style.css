@@ -663,6 +663,7 @@ input{
     .btn{
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
     .before{
         padding: 20px;
