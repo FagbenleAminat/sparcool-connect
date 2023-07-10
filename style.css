@@ -906,7 +906,9 @@ input{
         padding: 0px;
         }
     .vid{
-        width: 200px;
+        width: 400px;
+    height: 400px;
+}
     }
     /* .stories_mobile {
         display: flex;
