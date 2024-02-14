@@ -205,9 +205,11 @@ li{
     display: flex;
     margin-top: 16px;
 }
-.from{
+/* .from{
     margin: 10px;
-}
+    display: flex;
+    flex-direction: column;
+} */
 a{ color: #f4ecec;
     text-decoration: none;
 }
@@ -217,7 +219,10 @@ a{ color: #f4ecec;
     flex-direction: column;
 }
 
-
+.form-control{
+    display: flex;
+    flex-direction: column;
+}
 #queen{
     color: rgb(103, 222, 222);
     font-size: 15px;
@@ -232,6 +237,7 @@ a{ color: #f4ecec;
 .first{
     display: flex;
     flex-direction: column;
+    
 }
 .second{
     height: 50px;
@@ -308,7 +314,13 @@ a{ color: #f4ecec;
     border-color: rgb(79, 232, 173);
     
 }
-
+.newsletter{
+    margin-left: 250px;
+    margin-right: 250px;
+    color: #040444;
+    margin-top: 10px;
+    margin-bottom: 20px;
+} 
 
 .links{
     display: flex;
@@ -408,7 +420,7 @@ h5{font-weight: bold;
 }
 .img_desktop{
     height:440px;
-    width:1280px;
+    width:100%;
 }
 .marki{
     color: #240046 !important;
@@ -572,6 +584,7 @@ input{
     /* align-items: center; */
     margin-left: 40px;
 }}
+
 /* styles for screens smaller than 768px */
 @media only screen and (max-width: 767px) {
     /* Style the navigation menu */
@@ -588,6 +601,14 @@ input{
     height: 250px;
     width: 100%;
   }
+  .newsletter{
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #040444;
+    margin-top: 10px;
+    margin-bottom: 20px;
+} 
+
   /* Hide the links inside the navigation menu (except for logo/home) */
   .topnav #myLinks {
     display: none;
